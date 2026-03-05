@@ -1,0 +1,64 @@
+/* DELICIAS */
+main.delicias {
+    padding: 0 1rem 2.5rem;
+}
+
+main.delicias .titulo-grid{ // título principal de la sección
+    text-align: center;
+    font-size: 3.1rem;
+    margin: 7rem 0 0.4rem;
+    font-family: $fuente-principal;
+    color: $color-texto;
+}
+
+main.delicias .subtitulo{ // subtítulo debajo del título principal
+    margin: -0.30rem 0 1.6rem; // espacio entre el título y el subtítulo
+    text-align: center;
+    color: $color-texto-suave;
+    font-size: 1.8rem;
+    font-family: $fuente-secundaria;
+}
+
+main.delicias .contenedor-grid{ // contenedor que agrupa las cards
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+main.delicias .card-torta{ // cada card individual
+    width: 100%;
+    max-width: 420px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+main.delicias .card-torta h3{  /* título dentro de cada card */
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+    font-family: $fuente-principal;
+    color: $color-texto;
+}
+
+main.delicias .card-torta img{ /* imagen dentro de cada card */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto 0.6rem;
+    justify-self: center;
+    border-radius: $radio-sm; // bordes redondeados para las imágenes
+    transition: transform 0.3s ease;
+
+    &:hover{ transform: scale(1.05); } // efecto de zoom suave al pasar el mouse sobre la imagen
+}
+
+main.delicias .card-torta p{ /* párrafo dentro de cada card */
+    max-width: 385px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: $color-texto;
+    font-family: $fuente-principal;
+}

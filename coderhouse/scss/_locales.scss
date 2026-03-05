@@ -1,0 +1,46 @@
+.contacto{
+    font-family: $fuente-principal;
+}
+
+.titulo-encontranos{
+    font-size: 2.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    color: $color-texto;
+}
+
+.local{
+    color: $color-texto;
+    text-align: center;
+}
+
+/* Tu tarjeta horario (aunque tenga class card de bootstrap) */
+.horario-contenedor{
+    background: $color-fondo-rosa; // el rosa suave
+    box-shadow: $sombra-suave;       
+}
+
+.horario{
+    font-size: 1.1rem;
+    color: $color-texto;
+}
+
+.horario-detalle{
+    font-size: 1.05rem;
+    color: #4b3b40;
+}
+
+.horario-num{
+    font-weight: 600;
+    color: #3a2b2f;
+}
+
+.separador{
+    width: 90px;
+    height: 4px;
+    background: $color-fondo-rosa;
+    border-radius: $radio-pill;
+    margin: 18px auto 28px;
+}
+

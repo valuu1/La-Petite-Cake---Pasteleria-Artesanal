@@ -1,0 +1,10 @@
+@mixin card-sombra($sombra: $sombra-fuerte, $radio: $radio-sm) {
+    box-shadow: $sombra;
+    border-radius: $radio;
+}
+
+@mixin hover-opacidad($base: 1, $hover: .85) {
+    opacity: $base;
+    transition: opacity .2s ease;
+    &:hover { opacity: $hover; }
+}

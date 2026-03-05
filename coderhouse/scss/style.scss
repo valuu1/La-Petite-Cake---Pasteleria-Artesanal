@@ -1,0 +1,19 @@
+/* scss/style.scss */
+
+/* 1) Variables y herramientas */
+@import "variables";
+@import "mixins";
+
+/* 2) Base global */
+@import "base";
+
+/* 3) Estructura / secciones */
+@import "header";
+@import "footer";
+@import "home";
+@import "delicias";
+@import "locales";
+@import "nosotros";
+@import "catering";
+@import "responsive";
+@import "animaciones";
